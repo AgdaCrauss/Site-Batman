@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    height: 90px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 40%;
+}
+
+ul {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:aliceblue;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+li:hover{
+    color: #d21617;
+}
+
+#logo {
+    width:60px;
+    height: 50%;
+}
+
+.fundo {
+    background-image: url(./backgroundcontato.jpg);
+    background-size: contain;
+    background-position: 50% 50%;
+    width: 1280px;
+    height: 611px;
+}
+
+.fundo-container {
+    background-color: #1A1817;
+    margin-left: 60%;
+    width:1000px;
+    height: 600px;
+    display:flex;
+    align-items: end;
+    border-radius: 2px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#formulario {
+    background-color: #1A1817;
+    position: relative;
+    left:10px;
+    top: 43px;
+    width:488px;
+    height: 615px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+
+}
+
+legend {
+    background-color: #1A1817;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+label {
+    background-color: #1A1817;
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+}
+
+input {
+    background-color: aliceblue;
+    width: 300px;
+    height: 20px;
+}
+
+textarea {
+    background-color: aliceblue;
+    width: 300px;
+}
+
+button {
+    width: 116px;
+    height: 40px;
+    background-color: rgb(16, 104, 16);
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-end;
+}
+
+span {
+    color:#e9e2e2d5;
+    font-family: "Lato", sans-serif; 
+}
+
+#logofooter {
+    width:60px;
+    height: 15%;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width:100% !important;
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+    .footer-navigation {
+        display:block;
+        
+    }
+    
+    nav {
+        display:none;
+        ul {
+            display:flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        li {
+            list-style: none;
+            color:aliceblue;
+            font-size: 19px;
+            transition: .5s;
+            font-family: 'kdam thmor pro', sans-serif;
+        }
+        
+        li:hover{
+            color: #d21617;
+        }
+    }
+
+    .fundo {
+        background-image: url(./backgroundcontato.jpg);
+        background-size: contain;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 600px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+       
+        
+    }
+
+    .fundo-container {
+        background-color: #1A1817;
+        margin-left: 120px;
+        width:400px;
+        height: 600px;
+        display:flex;
+        align-items: center;
+        border-radius: 2px;
+    
+    }
+    
+    #formulario {
+        background-color: #1A1817;
+        position: relative;
+        left:10px;
+        top: 43px;
+        width:488px;
+        height: 615px;
+    
+        
+    
+    }
+    
+    legend {
+        background-color: #1A1817;
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+    }
+    
+    label {
+        background-color: #1A1817;
+        color: aliceblue;
+        font-family: "Lato", sans-serif;
+    }
+    
+    input {
+        background-color: aliceblue;
+        width: 300px;
+        height: 20px;
+    }
+    
+    textarea {
+        background-color: aliceblue;
+        width: 300px;
+    }
+    
+    button {
+        width: 116px;
+        height: 40px;
+        background-color: rgb(16, 104, 16);
+        color: aliceblue;
+    }
+    
+    button:hover {
+        background-color: aliceblue;
+        color: black;
+    }
